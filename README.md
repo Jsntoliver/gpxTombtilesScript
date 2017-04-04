@@ -1,2 +1,2 @@
 # gpxTombtilesScript
-This script convert gpx files into mbtiles.
+This script converts gpx files into mbtiles.
