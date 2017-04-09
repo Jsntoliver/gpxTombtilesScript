@@ -1,8 +1,8 @@
 #!/bin/bash -ex
 
-WORKING_DIR=/home/jason/Desktop/tippecanoe
+WORKING_DIR=path_to_desired_dir
 
-cd /home/jason/Desktop/tippecanoe
+cd WORKING_DIR
 
 for i in $( ls path_to_files/*.gpx ); do ogr2ogr path_to_output_storage/gpx.shp -append $i track_points -fieldTypeToString DateTime; done
 
